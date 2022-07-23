@@ -1,0 +1,66 @@
+/* BANNER */
+
+.banner {
+    background-image: url(../img/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body, h1 {
+    margin: 0;
+}
+
+h1, .banner p {
+    color: white;
+}
+
+.banner button {
+    background-color: white;
+    color: #7E4598;
+    font-size: 16pt;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+/* SOBRE */
+
+.sobre h2 {
+    color: gray;
+    font-size: 22pt;
+}
+
+.descricao, .habilidades {
+    width: 40%;
+    display: inline-block;
+}
+
+.sobre {
+    padding: 70px;
+}
+
+.descricao button {
+    color: #7E4598;
+    border-color: #7E4598;
+    background-color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+/* RODAPE */
+
+.rodape a {
+    background-color: #7E4598;
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+}
